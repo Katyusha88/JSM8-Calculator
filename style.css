@@ -1,0 +1,68 @@
+body {
+    /* background-image: url(./gold-piggy-bank-with-gold-coin-money-stacks-and-growing-arrow-business-and-finance-savings-investment-concept-background-3d-illustration.jpg); */
+    background-image: url("./dollar-banknotes-tree-growing-in-a-white-pot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#calculator {
+    background-color: rgba(192, 192, 192, 0.721);
+    display: flex;
+    width: 460px;
+    border: 2px silver solid;
+    height: 540px;
+    margin-left: 50px;
+}
+#heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#footnote {
+    background-color: black;
+    color: silver;
+    padding: 10px;
+    opacity: 0.7;
+    font-family: 'Chakra Petch', sans-serif;
+}
+h3 {
+    text-align: center;
+    width: 500px;
+    font-size: 26px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.input {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.salary {
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 400px;
+    border: none;
+}
+#btn {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgba(122, 224, 143, 0.829);
+    border: 2px solid whitesmoke;
+    margin: 20px;
+    text-align: center;
+    width: 410px;
+}
+#Calculations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Chakra Petch', sans-serif;
+    /* border: 1px solid; */
+    width: 460px;
+}
+.calculations {
+    border: 2px solid rgba(122, 224, 143, 0.829);
+    padding: 10px;
+    background-color: whitesmoke;
+}
