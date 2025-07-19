@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="heading">
+        <h1>Calculation of hourly pay</h1>
+    </div>
+    <div id="calculator">
+        <div>
+            <div id="headingCalculator">
+                <h3>Calculator</h3>
+            </div>
+            <form>
+            <div>
+                <p class="input">Hours worked: </p>
+                <input class="salary hours" type="number" placeholder="Hours worked..."/>
+            </div>
+            <div>
+                <p class="input">Hourly rate: </p>
+                <input class="salary rate" type="number" placeholder="Hourly rate..."/>
+            </div>
+            <button id="btn">Calculate salary</button>
+            </form>
+            <div id="Calculations">
+                <div class="calculations">
+                    <h4>Full salary:</h4>
+                    <p id="fullSalary"></p>
+                    <p>$</p>
+                </div>
+                <div class="calculations">
+                    <h4>The tax rate:</h4>
+                    <p id="tax"></p>
+                    <p>$</p>
+                </div>
+                <div class="calculations">
+                    <h4>After-Tax Income:</h4>
+                    <p id="afterTax"></p>
+                    <p>$</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p id="footnote">✳ Simple online calculator for calculating hourly wages depending on the hourly rate and the number of hours worked.
+        This is the salary before taxes are withheld.
+    </p>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
