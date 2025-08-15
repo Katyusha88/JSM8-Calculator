@@ -66,3 +66,18 @@ h3 {
     padding: 10px;
     background-color: whitesmoke;
 }
+
+@media all and (max-width: 480px) {
+#footnote {
+    margin-left: 52px;
+    width: 440px;
+}
+#heading {
+    margin-left: 90px;
+}
+}
+@media all and (max-width: 414px) {
+#heading {
+    font-size: 13px;
+    }
+}
